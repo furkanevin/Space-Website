@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Unbounded:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  padding: 0 170px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #eeeeee;
+  color: #14274e;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+nav h1 {
+  cursor: pointer;
+  font-size: 40px;
+  font-family: 'unbounded';
+}
+nav h1 a {
+  text-decoration: none;
+  color: #303841;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav ul li {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+nav ul li:hover {
+  color: #d72323;
+  transition: all 0.3s;
+  text-shadow: #d723238c 2px 2px 10px;
+}
+.signButton {
+  border: 2px solid #303841;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  transition: all 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  color: #070708;
+}
+.signButton:hover {
+  background-color: #303841;
+  color: #eeeeee;
+  transition: all 0.4s;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+
+  align-items: center;
+  margin-top: 50px;
+}
+.slogan {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.slogan h1 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Unbounded';
+  width: 700px;
+}
+.slogan p {
+  font-size: 14px;
+  width: 500px;
+}
+.slogan img {
+  width: 800px;
+  height: 500px;
+}
+.red {
+  color: #d72323;
+}
+.infos {
+  width: 100%;
+  background-color: #090a0be3;
+  border-radius: 10px;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 220px;
+  gap: 50px;
+  margin-top: 90px;
+}
+.info {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #070708;
+  border-radius: 10px;
+  color: #eeeeee;
+}
+.info img {
+  margin: 0 auto;
+}
+.info p {
+  text-align: center;
+  margin-top: 30px;
+}
+.add {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+.add p {
+  width: 500px;
+}
+footer {
+  width: 900px;
+  height: 500px;
+  margin: 150px auto;
+  background-color: #303841;
+  color: #eeeeee;
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+footer h1 {
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+footer p {
+  text-align: center;
+}
+footer button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: none;
+  transition: all 0.4s;
+
+  cursor: pointer;
+}
+footer button:hover {
+  background-color: #a6a6a6d2;
+  transition: all 0.4s;
+}
+/*! Sign Up  */
+
+.container {
+  background-color: #22262a;
+  color: #eeeeee;
+  padding: 100px 60px;
+  margin: 100px auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  border-radius: 20px;
+}
+.field {
+  height: 60px;
+}
+.field input {
+  border-radius: 10px;
+  padding: 10px;
+}
+.container button {
+  padding: 10px 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f7b707;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.container h1 {
+  letter-spacing: 3px;
+}
+.container button:hover {
+  background-color: #878888;
+  color: #eeeeee;
+  transition: all 0.4s;
+}
